@@ -1,16 +1,8 @@
 var express = require('express');
 var app = express();
 
-var middleware = {
-    requireAuthentication: function (req, res, next) {
-        console.log('private route hit!');
-        next();
-    },
-    logger: function(req, res, next){
-        console.log(req.originalUrl);
-        next();
-    }
-};
+var middleware = require("./middleware.js")
+
 
 app.use(middleware.logger);
 
