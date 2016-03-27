@@ -1,0 +1,14 @@
+{
+  "name": "public_html",
+  "version": "1.0.0",
+  "description": "Learning staff",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
